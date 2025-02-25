@@ -2,7 +2,7 @@ name: Get Feed
 
 on:
   schedule:
-    - cron: '30 12 * * *' # 6pm IST
+    - cron: '30 12 * * *' # the time at which the script runs
   workflow_dispatch:
 
 jobs:
